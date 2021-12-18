@@ -1,0 +1,8 @@
+.lyricsContainer {
+  border: 1px solid red;
+  width: 100%;
+}
+
+.lyricsContainer p {
+  white-space: pre-wrap;
+}

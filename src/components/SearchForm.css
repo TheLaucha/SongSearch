@@ -1,0 +1,18 @@
+.Form {
+  padding: 1rem;
+  background-color: darkkhaki;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.Form button {
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}

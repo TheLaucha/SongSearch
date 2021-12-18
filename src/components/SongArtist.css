@@ -1,0 +1,19 @@
+.artistContainer {
+  width: 100%;
+  border: 1px solid rgb(0, 255, 21);
+}
+
+.artistContainer img {
+  max-width: 100%;
+}
+
+.artistContainer p {
+  white-space: pre-wrap;
+}
+
+.artistContainer p,
+.artistContainer img,
+.artistContainer a,
+.artistContainer h3 {
+  margin-bottom: 1rem;
+}
