@@ -1,14 +1,47 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightlier-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
 .artistContainer {
   width: 100%;
-  border: 1px solid rgb(0, 255, 21);
+  color: var(--White);
+}
+
+.artistContainer h3 {
+  font-size: 1.5rem;
+  color: var(--White);
 }
 
 .artistContainer img {
   max-width: 100%;
+  border-radius: 0.2rem;
+  border: 1px solid var(--Soft-violet);
 }
 
 .artistContainer p {
   white-space: pre-wrap;
+}
+
+.artistContainer .fas {
+  color: var(--Soft-violet);
+  margin-right: 0.5rem;
+}
+
+.artistContainer a {
+  text-decoration: none;
+  color: var(--Soft-violet);
+  display: block;
+}
+
+.artistContainer a:hover {
+  text-decoration: underline;
 }
 
 .artistContainer p,

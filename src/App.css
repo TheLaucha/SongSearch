@@ -4,13 +4,31 @@ Transiciones
 Media queries
 Fuentes */
 
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightlier-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
 .App {
-  padding: 2rem;
+  padding: 1rem;
   margin: 0 auto;
   width: 1000px;
-  background-color: darkgoldenrod;
+  min-height: 100vh;
+  background-color: var(--Dark-desaturated-blue);
 }
 
 .App h2 {
-  font-size: 2rem;
+  color: var(--White);
+  font-family: "Praise", cursive;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  text-shadow: -6px -6px var(--Soft-violet), -5px -5px var(--Soft-violet),
+    -4px -4px var(--Soft-violet), -3px -3px var(--Soft-violet), -2px -2px var(--Soft-violet),
+    -1px -1px var(--Soft-violet), 1px 1px var(--Soft-violet), 2px 2px var(--Soft-violet);
 }

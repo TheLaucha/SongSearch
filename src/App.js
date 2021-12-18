@@ -4,6 +4,7 @@ import SearchForm from "./components/SearchForm"
 import SongDetails from "./components/SongDetails"
 import Loader from "./components/Loader"
 import { helpHttp } from "./helpers/helpHttp.js"
+import Examples from "./components/Examples"
 
 function App() {
   const [search, setSearch] = useState(null)
@@ -27,6 +28,8 @@ function App() {
         helpHttp().get(songUrl),
       ])
 
+      console.log(artistRes)
+
       setBio(artistRes)
       setLyric(songRes)
       setLoading(false)
@@ -43,6 +46,7 @@ function App() {
     <div className='App'>
       <h2>SongSearch</h2>
       <SearchForm handleSearch={handleSearch}></SearchForm>
+      <Examples handleSearch={handleSearch}></Examples>
       {loading && <Loader></Loader>}
       {search && !loading && <SongDetails bio={bio} lyric={lyric} search={search}></SongDetails>}
     </div>

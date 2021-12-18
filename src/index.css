@@ -1,9 +1,26 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightlier-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  
+body {
+  background-color: var(--Very-dark-blue);
+  font-family: "Source Sans 3", sans-serif;
+}
+
+input,
+button {
+  font-family: "Source Sans 3", sans-serif;
 }

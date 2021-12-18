@@ -1,3 +1,7 @@
+.loaderContainer {
+  text-align: center;
+}
+
 .lds-hourglass {
   display: inline-block;
   position: relative;
@@ -12,8 +16,8 @@
   height: 0;
   margin: 8px;
   box-sizing: border-box;
-  border: 32px solid #000;
-  border-color: #000 transparent #000 transparent;
+  border: 32px solid hsl(277, 64%, 61%);
+  border-color: hsl(277, 64%, 61%) transparent hsl(277, 64%, 61%) transparent;
   animation: lds-hourglass 1.2s infinite;
 }
 @keyframes lds-hourglass {
