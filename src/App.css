@@ -24,6 +24,7 @@ Fuentes */
 }
 
 .App h2 {
+  text-align: center;
   color: var(--White);
   font-family: "Praise", cursive;
   font-size: 4rem;
@@ -31,4 +32,22 @@ Fuentes */
   text-shadow: -6px -6px var(--Soft-violet), -5px -5px var(--Soft-violet),
     -4px -4px var(--Soft-violet), -3px -3px var(--Soft-violet), -2px -2px var(--Soft-violet),
     -1px -1px var(--Soft-violet), 1px 1px var(--Soft-violet), 2px 2px var(--Soft-violet);
+}
+
+@media screen and (max-width: 1024px) {
+  .App {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 425px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .App {
+    width: 325px;
+  }
 }

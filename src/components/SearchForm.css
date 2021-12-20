@@ -55,3 +55,17 @@
   background-color: rgb(89, 20, 133);
   box-shadow: 3px 3px 0px #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .Form {
+    flex-direction: column;
+  }
+
+  .Form input {
+    width: 100%;
+  }
+
+  .Form button {
+    width: 100%;
+  }
+}
